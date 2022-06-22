@@ -30,7 +30,7 @@ body {
 }
 
 .form__input {
-  top: -24px;
+  
   font-family: 'Roboto', sans-serif;
   color: #333;
   font-size: 1.2rem;
@@ -38,8 +38,8 @@ body {
   padding: 1.5rem 2rem;
   border-radius: 0.2rem;
   background-color: rgb(255, 255, 255);
-  border: none;
-  width: 90%;
+  border: darkorange;
+  
   display: block;
   border-bottom: 0.3rem solid transparent;
   transition: all 0.3s;
