@@ -19,7 +19,7 @@
 
 <body>
     
-<div class="container center">
+<div class="container align-items-center justify-content-center">
     <br>
     <br>
     <div class="form" id="form1">
@@ -41,8 +41,17 @@
        
     <br>
     <h3 id="prediction"></h3>
-    <button class="button2" id="button2" role="button" onclick="window.open('{{url}}')" target="_blank" >Still want to Continue!😶‍🌫️</button>
-    <button class="button1" id="button1" role="button"  onclick="window.open('{{url}}')" target="_blank">Continue👌</button>
+    <div class="card text-bg-danger mb-3">
+        <div class="card-body">
+            <button class="button2" id="button2" role="button" onclick="window.open('{{url}}')" target="_blank" >Still want to Continue!😶‍🌫️</button> 
+        </div>
+    </div>
+    <div class="card text-bg-success mb-3" >       
+        <div class="card-body">
+            <button class="button1" id="button1" role="button"  onclick="window.open('{{url}}')" target="_blank">Continue👌</button>
+        </div>
+    </div>
+    
     </div> 
     <br>
     <br>
